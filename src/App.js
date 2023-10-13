@@ -13,8 +13,8 @@ function App() {
       alert("Enter Amount First");
     } else {
       const options = {
-        key: "rzp_test_q8EOkgs7UxiYXx",
-        key_secret: "sQuUyJdONJbNbejandxKfmLl",
+        key: "Razorpay_Api_Id",
+        key_secret: "Razorpay_Secret_Api_key",
         amount: amount * 100,
         currency: "INR",
         name: "DEMO PAYMENT !",
@@ -23,9 +23,9 @@ function App() {
           alert(res.razorpay_payment_id);
         },
         prefill : {
-          name : "Selvaraj",
-          email : "scodeflutterdeveloper@gmail.com",
-          contact : "7200524286"
+          name : "Name",
+          email : "example@gmail.com",
+          contact : "1234567890"
         },
         notes : {
           address : "Razorpay Corporate office"
